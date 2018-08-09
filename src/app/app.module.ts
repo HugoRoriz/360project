@@ -15,7 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   {path: '', component: LandingPageComponent},
-  {path: 'homepage', component: HomepageComponent},
+  {path: 'ZU/homepage', component: HomepageComponent},
 ];
 
 @NgModule({
