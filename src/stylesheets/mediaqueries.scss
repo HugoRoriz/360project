@@ -1,0 +1,574 @@
+// 1200 UP
+
+@media only screen and (min-width: 1200px) {
+  .links-text {margin: 20px 35px !important;}
+
+  .links-position {
+    height: 107px;
+    width: 70%;
+  }
+
+  .footer-links-field-mobile {display: none;}
+}
+
+// 1199 - 992
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .links-text {margin: 50px 25px 0 25px !important}
+
+  .choose-pet {margin-left: 5px !important;}
+
+  .footer-links {margin: 0 10px 0 25px !important;}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 20px !important;}
+
+  .produtos-icon,
+  .treinos-icon {margin-left: 30px !important;}
+
+  .footer-links-field-mobile {display: none;}
+}
+
+// 991 - 768
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  // HOMEPAGE
+
+  .links-text {margin: 40px 8px 0 8px !important}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 12% !important;}
+  .produtos-icon,
+  .treinos-icon {margin-left: 18% !important;}
+
+  .servicos-field>.container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
+  }
+
+  .servicos-content-field {padding: 0 !important;}
+
+  .img-space {margin-top: 45px !important;}
+
+  .newsletter-h1 {font-size: 22px !important;}
+
+  .news-pets-field {padding: 0;}
+
+  .pet-question,
+  .label-email {padding-top: 35px !important;}
+
+  .choose-pet {margin-left: 0px !important;}
+
+  .footer-links {
+    font-size: 13px !important;
+    margin: 0 10px 0 15px !important;
+  }
+
+  .footer-links-field-mobile {display: none;}
+
+  // LANDINGPAGE
+
+  .landing-h1 {font-size: 50px !important;}
+
+  .landing-h2 {font-size: 22px !important;}
+
+  .landing-p {font-size: 18px !important;}
+
+  .landing-pet-question-field {
+    left: 22% !important;
+    height: 90px !important;
+    max-width: 100% !important;
+  }
+
+  .landing-pet-question-p {
+    width: 175px !important;
+    text-align: center !important;
+  }
+
+  .landing-select-pet {margin-left: 20px !important;}
+
+  .landing-user {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .landing-dog-image,
+  .landing-cat-image {
+    width: 54px !important;
+	  height: 58px !important;
+  }
+
+  .landing-dog-text {
+    top: 88px !important;
+	  left: 54px !important;
+  }
+
+  .landing-cat-text {
+    top: 87px !important;
+    left: 142px !important;
+  }
+
+  .animal-input-content-field {
+    margin: 0px 1px 10px 0 !important;
+    left: 13% !important;
+  }
+}
+
+// 767 - 0
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+  .hamburguer {display: initial !important;}
+
+  nav {
+    position: relative;
+	  width: 300px;
+	  height: 30px;
+  }
+
+  .navbar.navbar-default>.container {max-width: 90% !important;}
+
+  .header-link {
+    height: 50px !important;
+    margin: 0 !important;
+    color: white !important;
+  }
+
+  .header-zu-icon {margin-left: 50px;}
+
+  .navbar-default {padding: 0 !important;}
+
+  .header-resize {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  nav ul {
+    position: absolute;
+    width: 193%;
+    height: 500px;
+    padding: 0;
+	  top: 9vh;
+    flex-wrap: wrap;
+    margin: -19px auto 0 auto;
+    background: #08966e;
+    transform: translateX(-145%);
+    border-radius: 10px;
+    transition: all .5s;
+  }
+
+
+  nav li {
+    width: 100%;
+    flex: none;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  nav a:hover {color: #002948 !important;}
+
+  nav input[type="checkbox"]:checked + ul  {
+    transform: translateX(-30%);
+    transition: all .5s;
+  }
+
+  nav label {display: block !important;}
+
+  .servicos-field {height: 2000px !important;}
+
+  .footer-links-field-desktop {display: none !important;}
+
+  // LANDINGPAGE
+
+  .landing-row {padding-left: 50px !important;}
+
+  .landing-h1 {font-size: 50px !important;}
+
+  .landing-h2 {font-size: 22px !important;}
+
+  .landing-p {font-size: 18px !important;}
+
+  .landing-pet-question-field {
+    left: 22% !important;
+    height: 90px !important;
+    max-width: 100% !important;
+  }
+
+  .landing-pet-question-p {
+    width: 175px !important;
+    text-align: center !important;
+  }
+
+  .landing-select-pet {margin-left: 20px !important;}
+
+  .landing-user {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .landing-dog-image,
+  .landing-cat-image {
+    width: 54px !important;
+	  height: 58px !important;
+  }
+
+  .landing-dog-text {
+    top: 88px !important;
+	  left: 54px !important;
+  }
+
+  .landing-cat-text {
+    top: 87px !important;
+    left: 142px !important;
+  }
+
+  .animal-input-content-field {
+    margin: 0px 1px 10px 0 !important;
+    left: 13% !important;
+  }
+
+  .input-landing {padding: 20px 12px !important;}
+}
+
+// 767 - 576
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  // HOMEPAGE
+
+  .blog-indicator,
+  .doutorzu-indicator,
+  .adocao-indicator {left: 40% !important;}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 32% !important;}
+
+  .produtos-icon,
+  .treinos-icon {margin-left: 35% !important;}
+
+  .footer-links-field-desktop {display: none !important;}
+
+  .img-space {
+    position: relative;
+    left: 44%;
+  }
+
+  .choose-pet {margin-left: 195px !important;}
+
+  .input-email {
+    width: 99% !important;
+    text-align: center !important;
+  }
+
+  .label-email {text-align: center;}
+
+  .button-email {margin-left: 140% !important;}
+
+  .footer-zu-icon {margin: 33px 0 33px 45%}
+
+  .footer-field {height: 300px !important;}
+
+  .footer-links-field-mobile {
+    width: 50% !important;
+    text-align: center !important;
+  }
+
+  .left-link {margin: 0 10px 0 0 !important;}
+
+  .right-link {margin: 0 0 0 10px !important;}
+
+  .adocao {margin-right: 35px !important;}
+
+  .social-h2 {margin-left: 42% !important;}
+
+  .social-field,
+  .trademark {
+    width: 100% !important;
+    text-align: center !important;
+  }
+}
+
+// 575 - 531
+
+@media only screen and (min-width: 531px) and (max-width: 575px) {
+
+  nav input[type="checkbox"]:checked + ul {transform: translateX(-38%);}
+
+  .blog-indicator,
+  .doutorzu-indicator,
+  .adocao-indicator {left: 35% !important;}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 32% !important;}
+
+  .produtos-icon,
+  .treinos-icon {margin-left: 35% !important;}
+
+  .footer-links-field-desktop {display: none !important;}
+
+  .img-space {
+    position: relative;
+    left: 44%;
+  }
+
+  .choose-pet {margin-left: 39% !important}
+
+  .input-email {
+    width: 99% !important;
+    text-align: center !important;
+  }
+
+  .label-email {text-align: center;}
+
+  .button-email {margin-left: 144% !important;}
+
+  .footer-zu-icon {margin: 33px 0 33px 45%}
+
+  .footer-field {height: 300px !important;}
+
+  .footer-links-field-mobile {
+    width: 50% !important;
+    text-align: center !important;
+  }
+
+  .left-link {margin: 0 10px 0 0 !important;}
+
+  .right-link {margin: 0 0 0 10px !important;}
+
+  .adocao {margin-right: 35px !important;}
+
+  .social-h2 {margin-left: 42% !important;}
+
+  .social-field,
+  .trademark {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  // LANDINGPAGE
+
+  .animal-input-field {
+    margin: 5% 0px 0px 10px !important;
+    input {width: 57% !important;}
+  }
+}
+
+// 530 - 401
+
+@media only screen and (min-width: 402px) and (max-width: 530px) {
+
+  .nav-container {width: 280px !important;}
+
+  nav input[type="checkbox"]:checked + ul {transform: translateX(-38%);}
+
+  .blog-indicator,
+  .doutorzu-indicator,
+  .adocao-indicator {left: 33% !important;}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 30% !important;}
+
+  .produtos-icon,
+  .treinos-icon {margin-left: 33% !important;}
+
+  .footer-links-field-desktop {display: none !important;}
+
+  .img-space {
+    position: relative;
+    left: 44%;
+  }
+
+  .choose-pet {margin-left: 37% !important}
+
+  .input-email {
+    width: 99% !important;
+    text-align: center !important;
+  }
+
+  .label-email {text-align: center;}
+
+  .button-email {margin-left: 130% !important;}
+
+  .footer-zu-icon {margin: 33px 0 33px 45%}
+
+  .footer-field {height: 300px !important;}
+
+  .footer-links-field-mobile {
+    width: 50% !important;
+    text-align: center !important;
+  }
+
+  .left-link {margin: 0 10px 0 0 !important;}
+
+  .right-link {margin: 0 0 0 10px !important;}
+
+  .adocao {margin-right: 35px !important;}
+
+  .social-h2 {margin-left: 42% !important;}
+
+  .social-field,
+  .trademark {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  // LANDINGPAGE
+
+  .landing-field {height: 1000px !important;}
+
+  .landing-h1 {font-size: 40px !important;}
+
+  .landing-h2 {font-size: 20px !important;}
+
+  .landing-p {font-size: 16px !important;}
+
+  .animal-input-field {
+    margin: 5% 0px 0px 0px !important;
+    input {width: 250px !important;}
+  }
+
+  .mouse-icon-landing {top: 800px !important;}
+}
+
+// 401 - 320
+
+@media only screen and (min-width: 320px) and (max-width: 401px) {
+
+  app-homepage .efeitozu-field, .blog-field, .adocao-field, .doutorzu-field {height: 1000px !important;}
+
+  .header-zu-icon {margin-left: 20px;}
+
+  .blog-indicator,
+  .doutorzu-indicator,
+  .adocao-indicator {left: 30% !important;}
+
+  .veterinario-icon,
+  .grooming-icon {margin-left: 21% !important;}
+
+  .produtos-icon,
+  .treinos-icon {margin-left: 24% !important;}
+
+  .footer-links-field-desktop {display: none !important;}
+
+  .img-space {
+    position: relative;
+    left: 44%;
+  }
+
+  .choose-pet {margin-left: 33% !important}
+
+  .input-email {
+    width: 99% !important;
+    text-align: center !important;
+  }
+
+  .label-email {text-align: center;}
+
+  .button-email {margin-left: 70% !important;}
+
+  .footer-zu-icon {margin: 33px 0 33px 45%}
+
+  .footer-field {height: 300px !important;}
+
+  .footer-links-field-mobile {
+    width: 50% !important;
+    text-align: center !important;
+  }
+
+  .left-link {margin: 0 10px 0 0 !important;}
+
+  .right-link {margin: 0 0 0 10px !important;}
+
+  .adocao {margin-right: 35px !important;}
+
+  .social-h2 {margin-left: 42% !important;}
+
+  .social-field,
+  .trademark {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  // LANDINGPAGE
+
+  app-landing-page .efeitozu-field {height: 1000px !important;}
+
+  .landing-field {
+    height: 1000px !important;
+    .servicos-h1 {margin-top: 200px !important;}
+  }
+
+  .landing-h1 {
+    font-size: 40px !important;
+    margin: 10px 0px 0px 0px !important;
+  }
+
+  .landing-h2 {
+    font-size: 18px !important;
+    margin: 0px !important;
+  }
+
+  .landing-p {font-size: 14px !important;}
+
+  .landing-pet-question-field {left: 10% !important;}
+
+  .animal-input-content-field {left: 0% !important;}
+
+  .animal-input-field {
+    margin: 5% 0px 0px 0px !important;
+    input {width: 250px !important;}
+  }
+
+  .owner-input-field {margin-top: 0px !important;}
+
+  .button-submit-zu {margin-top: 30px !important;}
+
+  .mouse-icon-landing {top: 800px !important;}
+}
+
+// SPECIFIC QUERIES
+
+@media only screen and (min-width: 446px) and (max-width: 478px) {.nav-container {width: 250px !important;}}
+
+@media only screen and (min-width: 430px) and (max-width: 470px) {.button-email {margin-left: 110% !important;}}
+
+@media only screen and (min-width: 402px) and (max-width: 470px) {.choose-pet {margin-left: 36% !important}}
+
+@media only screen and (min-width: 424px) and (max-width: 445px) {.nav-container {width: 230px !important;}}
+
+@media only screen and (min-width: 402px) and (max-width: 429px) {.button-email {margin-left: 100% !important;}}
+
+@media only screen and (min-width: 413px) and (max-width: 423px) {.nav-container {width: 220px !important;}}
+
+@media only screen and (min-width: 407px) and (max-width: 412px) {.nav-container {width: 215px !important;}}
+
+@media only screen and (min-width: 402px) and (max-width: 406px) {.nav-container {width: 210px !important;}}
+
+@media only screen and (min-width: 320px) and (max-width: 401px) {nav input[type="checkbox"]:checked + ul {transform: translateX(-38%);}}
+
+@media only screen and (min-width: 368px) and (max-width: 401px) {.button-email {margin-left: 80% !important;}}
+
+@media only screen and (min-width: 368px) and (max-width: 401px) {.nav-container {width: 210px !important;}}
+
+@media only screen and (min-width: 357px) and (max-width: 367px) {.nav-container {width: 200px !important;}}
+
+@media only screen and (min-width: 320px) and (max-width: 356px) {
+  .left-link {margin: 0 5px 0 0 !important;}
+
+  .right-link {margin: 0 0 0 5px !important;}
+}
+
+@media only screen and (min-width: 346px) and (max-width: 356px) {.nav-container {width: 190px !important;}}
+
+@media only screen and (min-width: 335px) and (max-width: 346px) {.nav-container {width: 180px !important;}}
+
+@media only screen and (min-width: 329px) and (max-width: 334px) {.nav-container {width: 175px !important;}}
+
+@media only screen and (min-width: 324px) and (max-width: 328px) {.nav-container {width: 170px !important;}}
+
+@media only screen and (min-width: 322px) and (max-width: 323px) {.nav-container {width: 168px !important;}}
+
+@media only screen and (min-width: 320px) and (max-width: 321px) {.nav-container {width: 167px !important;}}
