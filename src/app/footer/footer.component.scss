@@ -1,0 +1,244 @@
+.img-space {margin-top: 20px;}
+
+.pet-question {
+  font-family: Boing-Medium;
+  font-size: 12px;
+  font-weight: 500;
+  color: #002848;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.user-dog {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #CCC;
+  border: 1px solid #002848;
+}
+
+.user-cat {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #CCC;
+  border: 1px solid #002848;
+}
+
+.dog-image {
+  width: 45px;
+  height: 45px;
+}
+
+.cat-image {
+  width: 45px;
+  height: 45px;
+  margin-left: 2px;
+}
+
+.select-pet {
+  list-style: none;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.newsletter-field {
+  background-color: #08966e;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  padding-bottom: 0;
+}
+
+.newsletter-h1 {
+  font-family: Boing-Light;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+}
+
+.label-email {
+  display: block;
+  font-family: Boing-Medium;
+  font-size: 12px;
+  font-weight: 500;
+  color: #002848;
+  padding-top: 15px;
+}
+
+.input-email {
+  width: 87%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-family: Boing-Light;
+  background-color: #f1f1f1;
+  border: solid 1px #002848;
+}
+
+.button-email {
+  width: 124px;
+  height: 35px;
+  margin: 10px 17% 40px 0;
+  font-family: Boing-Medium;
+  color: black;
+  border-radius: 100px;
+  background-color: #ec4857;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px #002848;
+  transition: all .2s ease-in-out;
+}
+
+.button-email:hover {transform: scale(1.1);}
+
+.greater-icon {
+  position: relative;
+  width: 6px;
+	height: 10px;
+	left: 15%;
+	top: 0px;
+}
+
+.footer-zu-icon {
+  height: 29px;
+  width: 55px;
+  margin-top: 33px;
+}
+
+.footer-links-field-desktop {
+  height: 20px;
+  margin-top: 30px;
+}
+
+.footer-links {
+  font-family: Boing-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #c3c3c3;
+  margin-left: 0;
+}
+
+.footer-links:hover {
+  text-decoration: none;
+  color: #08966e;
+}
+
+.social-field {
+  width: 130px;
+  height: 20px;
+}
+
+.social-field img {
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+.social-field img:hover {transform: scale(1.1);}
+
+.facebook {height: 20px;}
+
+.instagram {
+  height: 20px;
+  margin-left: 5px;
+}
+
+.google-plus {
+  height: 25px;
+  margin-left: 10px;
+}
+
+.youtube {
+  height: 25px;
+  margin-left: 10px;
+}
+
+.button-email-field {
+  width: 140px;
+  height: 60px;
+}
+
+.trademark {
+  width: 224px;
+  height: 15px;
+  font-family: Boing-Medium;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c3c3c3;
+  margin-top: 25px;
+}
+
+.dog-text {
+  width: 19px;
+  height: 14px;
+  position: relative;
+  font-family: Boing-Medium;
+  font-size: 10px;
+  font-weight: 500;
+  color: #5c5c5c;
+  bottom: 40%;
+	left: 30%;
+}
+
+.cat-text {
+  width: 19px;
+  height: 14px;
+  position: relative;
+  font-family: Boing-Medium;
+  font-size: 10px;
+  font-weight: 500;
+  color: #5c5c5c;
+  bottom: 41%;
+	left: 24%;
+}
+
+.footer-links-field-desktop {
+  height: 20px;
+  margin-top: 35px;
+  padding: 0;
+}
+
+.footer-links {
+  font-family: Boing-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #c3c3c3;
+  margin: 0 10px 0 40px;
+}
+
+.footer-links:hover {
+  text-decoration: none;
+  color: #08966e;
+}
+
+.footer-field {
+  height: 150px;
+  background-color: #002948;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.social-h2 {
+  width: 109px;
+  height: 15px;
+  margin-top: 33px;
+  font-family: Boing-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  color: #08966e;
+  margin-left: 7px;
+}
+
+.choose-pet {
+  margin-top: 10px;
+  margin-left: 20px;
+}
