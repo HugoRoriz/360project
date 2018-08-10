@@ -181,9 +181,29 @@
 
   .footer-links-field-desktop {display: none !important;}
 
+  .produtos-icon {
+    width: 35% !important;
+    height: 35% !important;
+  }
+
+  .veterinario-icon {
+    width: 40% !important;
+    height: 35% !important;
+  }
+
+  .grooming-icon {
+    height: 35% !important;
+    width: 45% !important;
+  }
+
+  .treinos-icon {
+    width: 35% !important;
+    height: 35% !important;
+  }
+
   // LANDINGPAGE
 
-  .landing-row {padding-left: 50px !important;}
+  .landing-row {padding-left: 20px !important;}
 
   .landing-h1 {font-size: 50px !important;}
 
@@ -243,11 +263,10 @@
   .doutorzu-indicator,
   .adocao-indicator {left: 40% !important;}
 
-  .veterinario-icon,
-  .grooming-icon {margin-left: 32% !important;}
-
-  .produtos-icon,
-  .treinos-icon {margin-left: 35% !important;}
+  .veterinario-icon {margin-left: 30% !important;}
+  .grooming-icon {margin-left: 28% !important;}
+  .produtos-icon {margin-left: 32% !important;}
+  .treinos-icon {margin-left: 32% !important;}
 
   .footer-links-field-desktop {display: none !important;}
 
@@ -289,6 +308,12 @@
     width: 100% !important;
     text-align: center !important;
   }
+
+  // LANDINGPAGE
+
+  .landing-field {height: 1000px !important;}
+
+  .mouse-icon-landing {top: 91% !important;}
 }
 
 // 575 - 531
@@ -301,11 +326,10 @@
   .doutorzu-indicator,
   .adocao-indicator {left: 35% !important;}
 
-  .veterinario-icon,
-  .grooming-icon {margin-left: 32% !important;}
-
-  .produtos-icon,
-  .treinos-icon {margin-left: 35% !important;}
+  .veterinario-icon {margin-left: 29% !important;}
+  .grooming-icon {margin-left: 28% !important;}
+  .produtos-icon {margin-left: 33% !important;}
+  .treinos-icon {margin-left: 33% !important;}
 
   .footer-links-field-desktop {display: none !important;}
 
@@ -350,6 +374,8 @@
 
   // LANDINGPAGE
 
+  .landing-field {height: 1000px !important;}
+
   .animal-input-field {
     margin: 5% 0px 0px 10px !important;
     input {width: 57% !important;}
@@ -368,10 +394,9 @@
   .doutorzu-indicator,
   .adocao-indicator {left: 33% !important;}
 
-  .veterinario-icon,
-  .grooming-icon {margin-left: 30% !important;}
-
-  .produtos-icon,
+  .veterinario-icon {margin-left: 30% !important;}
+  .grooming-icon {margin-left: 28% !important;}
+  .produtos-icon {margin-left: 33% !important;}
   .treinos-icon {margin-left: 33% !important;}
 
   .footer-links-field-desktop {display: none !important;}
@@ -417,7 +442,13 @@
 
   // LANDINGPAGE
 
-  .landing-field {height: 1000px !important;}
+  .landing-field {
+    height: 1000px !important;
+    .landing-container {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
 
   .landing-h1 {font-size: 40px !important;}
 
@@ -445,11 +476,10 @@
   .doutorzu-indicator,
   .adocao-indicator {left: 30% !important;}
 
-  .veterinario-icon,
-  .grooming-icon {margin-left: 21% !important;}
-
-  .produtos-icon,
-  .treinos-icon {margin-left: 24% !important;}
+  .veterinario-icon {margin-left: 29% !important;}
+  .grooming-icon {margin-left: 28% !important;}
+  .produtos-icon {margin-left: 31% !important;}
+  .treinos-icon {margin-left: 33% !important;}
 
   .footer-links-field-desktop {display: none !important;}
 
